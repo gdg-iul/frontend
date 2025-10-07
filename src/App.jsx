@@ -1,11 +1,13 @@
 import './App.css'
+import AddData from './Components/AddData'
 
 function App() {
 
   return (
     <>
-        <div className='flex items-center justify-center bg-gray-800 min-h-screen'>
-          <div className='text-2xl text-white font-bold'>Hello, Tech Team 🧑🏻‍💻</div>
+        <div className='flex items-center flex-col justify-center min-h-screen'>
+          <div className='text-2xl font-bold'>Hello, Tech Team 🧑🏻‍💻</div>
+          <AddData/>
         </div>
     </>
   )
