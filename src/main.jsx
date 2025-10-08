@@ -9,6 +9,3 @@ createRoot(document.getElementById('root')).render(
   </StrictMode>,
 )
 
-git add .
-git commit -m "Added navbar and home page"
-git push
