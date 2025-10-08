@@ -1,7 +1,8 @@
 // src/components/AddData.js
 import React, { useState } from "react";
 import { collection, addDoc } from "firebase/firestore";
-import { db } from "../firebase";
+import { db } from "../Services/firebase.js";
+;
 
 function AddData() {
   const [name, setName] = useState("");

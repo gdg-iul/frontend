@@ -1,4 +1,4 @@
-import './App.css'
+import './Styles/App.css'
 import AddData from './Components/AddData'
 
 function App() {
