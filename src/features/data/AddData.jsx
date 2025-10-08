@@ -1,7 +1,7 @@
 // src/Components/AddData.jsx
 import React, { useState } from "react";
 import { collection, addDoc } from "firebase/firestore";
-import { db } from "../Services/firebase.js"; // ✅ corrected path
+import { db } from "../../Services/firebase.js"; // ✅ corrected path
 
 
 function AddData() {

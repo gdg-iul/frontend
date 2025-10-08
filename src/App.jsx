@@ -1,17 +1,19 @@
 // src/App.jsx
-import "./Styles/App.css";
-import AddData from "./Components/AddData";
+
+// REMOVED: import "./Styles/App.css"; (If you are using Tailwind, this file is likely unnecessary or redundant)
+// REMOVED: import AddData from "./Components/AddData"; 
+
+// ADDED: Import the HomePage component you created
+import HomePage from "./pages/HomePage"; 
 
 function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 to-blue-300">
-      <div className="text-center">
-        <h1 className="text-3xl font-bold mb-6 text-gray-800">
-          Community GDG 🧖🏻‍♀️
-        </h1>
-        <AddData />
-      </div>
+    // The App component should now primarily render the HomePage
+    // The main styling for the whole page (dark background) is in src/styles/index.css
+    <div className="App">
+      <HomePage />
     </div>
+    // If you plan to use React Router for multiple pages, this App.jsx would manage the routes.
   );
 }
 
